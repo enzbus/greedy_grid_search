@@ -2,5 +2,5 @@
 Greedy grid search for hyper-parameter optimization
 
 ```
-pip install greedy-grid-search
+pip install greedygridsearch
 ```

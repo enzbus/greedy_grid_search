@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='greedy_grid_search',
+setup(name='greedygridsearch',
       description='Greedy grid search for hyper-parameter optimization.',
       author='Enzo Busseti',
       license='GPLv3',
