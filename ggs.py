@@ -15,9 +15,12 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-import numpy as np
+import math
 import logging
+
 logger = logging.getLogger(__name__)
+
+__version__ = '0.1'
 
 
 def min_key(d):
@@ -44,7 +47,7 @@ def greedy_grid_search(function,
 
             logger.info('evaluating function at %s' % params)
             value = function(**params)
-            if np.isnan(value):
+            if math.isnan(value):
                 raise ValueError('Function must return real value or +inf.')
             logger.info('function value = %f' % value)
             results[tuple(current_counter)] = value

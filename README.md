@@ -1,6 +1,17 @@
 # greedy_grid_search
+<p align="center">
+    <a href="https://pypi.org/project/ggs/" alt="ggs on PyPI">
+        <img src="https://img.shields.io/pypi/v/ggs.svg" /></a>
+    <a href="https://travis-ci.org/enzobusseti/ggs" alt="ggs on TravisCI">
+        <img src="https://travis-ci.org/enzobusseti/ggs.svg?branch=master" /></a>
+    <a href="https://ggs.readthedocs.io/" alt="ggs's documentation on Read the Docs">
+        <img src="https://readthedocs.org/projects/ggs/badge/?version=latest" /></a>
+    <a href="https://github.com/enzobusseti/ggs/blob/master/LICENSE" alt="GPLv3 License badge">
+        <img src="https://img.shields.io/badge/License-GPLv3-green.svg" /></a>  
+</p>
+
 Greedy grid search for hyper-parameter optimization
 
 ```
-pip install greedygridsearch
+pip install ggs
 ```
