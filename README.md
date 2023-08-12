@@ -6,8 +6,6 @@
         <img src="https://travis-ci.org/enzobusseti/ggs.svg?branch=master" /></a>
     <a href="https://ggs.readthedocs.io/" alt="ggs's documentation on Read the Docs">
         <img src="https://readthedocs.org/projects/ggs/badge/?version=latest" /></a>
-    <a href="https://github.com/enzobusseti/ggs/blob/master/LICENSE" alt="GPLv3 License badge">
-        <img src="https://img.shields.io/badge/License-GPLv3-green.svg" /></a>  
 </p>
 
 Greedy grid search for hyper-parameter optimization
